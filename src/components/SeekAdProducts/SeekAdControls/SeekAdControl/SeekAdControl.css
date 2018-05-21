@@ -1,0 +1,56 @@
+.SeekAdControl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.SeekAdControl button {
+    display: block;
+    font: inherit;
+    padding: 5px;
+    margin: 0 5px;
+    width: 80px;
+    border: 1px solid #41a4c8;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.SeekAdControl button:disabled {
+    background-color: #E0A2a2;
+    border: 1px solid #41A4c8;
+    color: #ccc;
+    cursor: default;
+}
+
+.SeekAdControl button:hover:disabled {
+    background-color: #E0A2a2;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.Label {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.SeekAdControl .Remove {  
+    background-color: #D02121;
+    color: white;
+}
+
+.SeekAdControl .Add {
+    background-color: #ED4080;
+    color: white;
+}
+
+.SeekAdControl .Remove:hover, .SeekAdControl .Remove:active {  
+    background-color: #a02121;
+    color: white;
+}
+
+.SeekAdControl .Add:hover,.SeekAdControl .Add:active {
+    background-color: #da0453;
+    color: white;
+}
