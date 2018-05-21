@@ -26,7 +26,7 @@ npm start
 ```
 The "Homepage" of the ad portal will be shown.
 
-### Configiruing Rules
+### Configuring Rules
 The rules are configured under :
 ```bash
 src/config/config.js
